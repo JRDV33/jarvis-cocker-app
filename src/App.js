@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import albums from './data.json'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Jarvis Cocker</h1>
       </header>
+      <section>
+        <h2>PULP</h2>
+      </section>
+      <section>
+        <h2>Solo Albums</h2>
+      </section>
+      <section>
+        <h2>Side Projects</h2>
+      </section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
