@@ -1,21 +1,35 @@
 {
   "albums": [
     {
-      "pulp": {
-        "title": "This is Hardcore",
-        "cover": "https://www.treblezine.com/wp-content/uploads/2018/03/pulp-hardcore.jpg.webp",
-        "release": "May 1998",
-        "length": "16 tracks"
-      }
+      "title": "",
+      "cover": "",
+      "releaseDate": "",
+      "favoriteSong": "",
+      "video": "",
+      "category": "solo"
     },
+    // {
+    //     "pulp": {
+    //       "title": "This is Hardcore",
+    //       "cover": "https://www.treblezine.com/wp-content/uploads/2018/03/pulp-hardcore.jpg.webp",
+    //       "release": "May 1998",
+    //       "length": "16 tracks"
+    //     },
+    //     {
+    //       "title": "Different Class",
+    //       "cover": "https://www.treblezine.com/wp-content/uploads/2018/03/pulp-hardcore.jpg.webp",
+    //       "release": "October 1995",
+    //       "length": "16 tracks"
+    //     }
+    //   },
     {
       "title": "",
       "cover": "",
       "releaseDate": "",
-      "tracks": "",
       "length": "",
       "favoriteSong": "",
-      "video": ""
+      "video": "",
+      "category": "solo"
     }
   ]
 }
