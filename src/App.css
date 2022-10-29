@@ -9,7 +9,7 @@ div {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 3fr 1fr 1fr 1fr;
+  /* grid-template-rows: 3fr 3fr 3fr 3fr; */
   grid-gap: 5px
 }
 
@@ -25,15 +25,17 @@ div {
   background-color: #89495D;
   color: white;
   font-weight: bolder;
-  /* width: 12.5%; */
+  /* width: 20%; */
   padding: 15px 30px 30px 30px;
   margin: 0px;
+  column-span: 1;
 }
 
 header {
-  text-align: center;
+  text-align: left;
   column-span: 0;
   padding: 0px 30px 30px 30px;
+  margin-left: 225px;
 }
 
 footer {
@@ -51,6 +53,11 @@ footer {
   column-span: all;
 }
 
+section {
+  margin-left: 225px;
+  padding: 0px 30px 10px 30px
+}
+
 .pulp {
   height: 200px;
   background-color: #DBD2CF;
@@ -63,4 +70,9 @@ footer {
 .side {
   height: 200px;
   background-color: #AEA292;
+}
+
+#unionJack {
+  width: 200px;
+  float: right;
 }
