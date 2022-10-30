@@ -1,5 +1,6 @@
 import './App.css'
-// import albums from './data.json'
+import albumArray from './data.json'
+import Albums from './components/Albums'
 
 const App = () => {
   return (
@@ -28,6 +29,11 @@ const App = () => {
       </header>
       <section class="pulp">
         <h2>PULP</h2>
+        <div className="albumCard">
+          {albumArray.map((albums) => (
+            <Albums key={albums.id} albums={albums} />
+          ))}
+        </div>
       </section>
       <section class="solo">
         <h2>Solo Albums</h2>

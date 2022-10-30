@@ -1,247 +1,246 @@
-{
-  "albums": [
-    {
-      "title": "It",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/Pulp-It.gif",
-      "releaseDate": "1983",
-      "favoriteSong": "My Lighthouse",
-      "video": "https://youtu.be/TnfYgQqSCoE",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "Freaks",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/Pulp-Freaks.jpg",
-      "releaseDate": "1987",
-      "favoriteSong": "They Suffocate at Night",
-      "video": "https://youtu.be/TObtIhL0sLc",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "Separations",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6c/Pulp-Seperations.jpg",
-      "releaseDate": "1987",
-      "favoriteSong": "Countdown",
-      "video": "https://youtu.be/Tb5JTnWgynE",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "Party Clowns: Live in London 1991",
-      "cover": "https://pulpwiki.net/pulpwiki/uploads/Pulp/Party-Clowns-small.jpg",
-      "releaseDate": "1991",
-      "favoriteSong": "Death II",
-      "video": "https://youtu.be/YGGLzZIMx9c",
-      "category": "Pulp",
-      "format": "Live LP"
-    },
-    {
-      "title": "Intro-The Gift Recordings",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/b/ba/PulpIntro.jpg",
-      "releaseDate": "1993",
-      "favoriteSong": "Razzamatazz",
-      "video": "https://youtu.be/NZQJeY2bVws",
-      "category": "Pulp",
-      "format": "Compilation"
-    },
-    {
-      "title": "Masters of the Universe (Pul on Fire 1984-1986)",
-      "cover": "https://pulpwiki.net/pulpwiki/uploads/Pulp/motucomp.jpg",
-      "releaseDate": "1994",
-      "favoriteSong": "Dogs are Everywhere",
-      "video": "https://youtu.be/oIfVq_lAUaI",
-      "category": "Pulp",
-      "format": "Compilation"
-    },
-    {
-      "title": "His 'n' Hers",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/6/6c/Pulp-His_%27n%27_Hers.jpg",
-      "releaseDate": "1994",
-      "favoriteSong": "Babies",
-      "video": "https://youtu.be/38by00DGid0",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "Different Class",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Pulp_-_Different_Class.PNG",
-      "releaseDate": "1995",
-      "favoriteSong": "Disco 2000",
-      "video": "https://youtu.be/qJS3xnD7Mus",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "Countdown 1992-1993",
-      "cover": "https://www.pulpwiki.net/pulpwiki/uploads/Pulp/Countdown1992-1983.jpg",
-      "releaseDate": "1996",
-      "favoriteSong": "Death Goes to the Disco",
-      "video": "https://youtu.be/ctprmIzw0xk",
-      "category": "Pulp",
-      "format": "Compilation"
-    },
-    {
-      "title": "This is Hardcore",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/Pulp-This_Is_Hardcore.jpg",
-      "releaseDate": "1998",
-      "favoriteSong": "Help the Aged",
-      "video": "https://youtu.be/_bZjKC0EaY0",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "Freshly Squeezed... The Early Years",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/a/a1/FreshlySqueezed.jpg",
-      "releaseDate": "1998",
-      "favoriteSong": "My Legendary Girlfriend",
-      "video": "https://youtu.be/qycKFlB7Mlg",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "We Love Life",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/4/41/Pulp-We_Love_Life.jpg",
-      "releaseDate": "2001",
-      "favoriteSong": "Bad Cover Version",
-      "video": "https://youtu.be/xR5xGHPUEew",
-      "category": "Pulp",
-      "format": "LP"
-    },
-    {
-      "title": "Hits",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/Pulp_Hits.jpg",
-      "releaseDate": "2002",
-      "favoriteSong": "Sorted for E's and Wizz",
-      "video": "https://youtu.be/XxhuZj25TKU",
-      "category": "Pulp",
-      "format": "Compilation"
-    },
-    {
-      "title": "The Peel Sessions",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/Pulp_Peel_Sessions_cover.jpeg",
-      "releaseDate": "2006",
-      "favoriteSong": "Common People",
-      "video": "https://youtu.be/cbQ7UFyqRpY",
-      "category": "Pulp",
-      "format": "Live"
-    },
-    {
-      "title": "After You",
-      "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Pulp_After_You.jpg",
-      "releaseDate": "2012",
-      "favoriteSong": "After You",
-      "video": "https://youtu.be/QZX1Is-T8e0",
-      "category": "Pulp",
-      "format": "Single"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    },
-    {
-      "title": "",
-      "cover": "",
-      "releaseDate": "",
-      "favoriteSong": "",
-      "video": "",
-      "category": "solo",
-      "format": "LP"
-    }
-  ]
-}
+[
+  {
+    "title": "It",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/Pulp-It.gif",
+    "releaseDate": "1983",
+    "favoriteSong": "My Lighthouse",
+    "video": "https://youtu.be/TnfYgQqSCoE",
+    "category": "Pulp",
+    "format": "LP",
+    "id": "001"
+  },
+  {
+    "title": "Freaks",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/Pulp-Freaks.jpg",
+    "releaseDate": "1987",
+    "favoriteSong": "They Suffocate at Night",
+    "video": "https://youtu.be/TObtIhL0sLc",
+    "category": "Pulp",
+    "format": "LP"
+  },
+  {
+    "title": "Separations",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6c/Pulp-Seperations.jpg",
+    "releaseDate": "1987",
+    "favoriteSong": "Countdown",
+    "video": "https://youtu.be/Tb5JTnWgynE",
+    "category": "Pulp",
+    "format": "LP"
+  },
+  {
+    "title": "Party Clowns: Live in London 1991",
+    "cover": "https://pulpwiki.net/pulpwiki/uploads/Pulp/Party-Clowns-small.jpg",
+    "releaseDate": "1991",
+    "favoriteSong": "Death II",
+    "video": "https://youtu.be/YGGLzZIMx9c",
+    "category": "Pulp",
+    "format": "Live LP"
+  },
+  {
+    "title": "Intro-The Gift Recordings",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/ba/PulpIntro.jpg",
+    "releaseDate": "1993",
+    "favoriteSong": "Razzamatazz",
+    "video": "https://youtu.be/NZQJeY2bVws",
+    "category": "Pulp",
+    "format": "Compilation"
+  },
+  {
+    "title": "Masters of the Universe (Pul on Fire 1984-1986)",
+    "cover": "https://pulpwiki.net/pulpwiki/uploads/Pulp/motucomp.jpg",
+    "releaseDate": "1994",
+    "favoriteSong": "Dogs are Everywhere",
+    "video": "https://youtu.be/oIfVq_lAUaI",
+    "category": "Pulp",
+    "format": "Compilation"
+  },
+  {
+    "title": "His 'n' Hers",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/6c/Pulp-His_%27n%27_Hers.jpg",
+    "releaseDate": "1994",
+    "favoriteSong": "Babies",
+    "video": "https://youtu.be/38by00DGid0",
+    "category": "Pulp",
+    "format": "LP"
+  },
+  {
+    "title": "Different Class",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Pulp_-_Different_Class.PNG",
+    "releaseDate": "1995",
+    "favoriteSong": "Disco 2000",
+    "video": "https://youtu.be/qJS3xnD7Mus",
+    "category": "Pulp",
+    "format": "LP"
+  },
+  {
+    "title": "Countdown 1992-1993",
+    "cover": "https://www.pulpwiki.net/pulpwiki/uploads/Pulp/Countdown1992-1983.jpg",
+    "releaseDate": "1996",
+    "favoriteSong": "Death Goes to the Disco",
+    "video": "https://youtu.be/ctprmIzw0xk",
+    "category": "Pulp",
+    "format": "Compilation"
+  },
+  {
+    "title": "This is Hardcore",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/Pulp-This_Is_Hardcore.jpg",
+    "releaseDate": "1998",
+    "favoriteSong": "Help the Aged",
+    "video": "https://youtu.be/_bZjKC0EaY0",
+    "category": "Pulp",
+    "format": "LP"
+  },
+  {
+    "title": "Freshly Squeezed... The Early Years",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a1/FreshlySqueezed.jpg",
+    "releaseDate": "1998",
+    "favoriteSong": "My Legendary Girlfriend",
+    "video": "https://youtu.be/qycKFlB7Mlg",
+    "category": "Pulp",
+    "format": "LP"
+  },
+  {
+    "title": "We Love Life",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/41/Pulp-We_Love_Life.jpg",
+    "releaseDate": "2001",
+    "favoriteSong": "Bad Cover Version",
+    "video": "https://youtu.be/xR5xGHPUEew",
+    "category": "Pulp",
+    "format": "LP"
+  },
+  {
+    "title": "Hits",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0a/Pulp_Hits.jpg",
+    "releaseDate": "2002",
+    "favoriteSong": "Sorted for E's and Wizz",
+    "video": "https://youtu.be/XxhuZj25TKU",
+    "category": "Pulp",
+    "format": "Compilation"
+  },
+  {
+    "title": "The Peel Sessions",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/Pulp_Peel_Sessions_cover.jpeg",
+    "releaseDate": "2006",
+    "favoriteSong": "Common People",
+    "video": "https://youtu.be/cbQ7UFyqRpY",
+    "category": "Pulp",
+    "format": "Live"
+  },
+  {
+    "title": "After You",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/28/Pulp_After_You.jpg",
+    "releaseDate": "2012",
+    "favoriteSong": "After You",
+    "video": "https://youtu.be/QZX1Is-T8e0",
+    "category": "Pulp",
+    "format": "Single"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  },
+  {
+    "title": "",
+    "cover": "",
+    "releaseDate": "",
+    "favoriteSong": "",
+    "video": "",
+    "category": "solo",
+    "format": "LP"
+  }
+]
