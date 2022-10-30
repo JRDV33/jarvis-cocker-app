@@ -5,14 +5,14 @@ import Albums from './components/Albums'
 const App = () => {
   return (
     <div className="App">
-      <nav class="nav">
+      <nav className="nav">
         <p>Home</p>
         <p>PULP</p>
         <p>Solo Albums</p>
         <p>Side Projects</p>
         <p>Mixtape</p>
       </nav>
-      <header class="header">
+      <header className="header">
         <h1>Jarvis Cocker</h1>
         <img
           id="unionJack"
@@ -27,7 +27,7 @@ const App = () => {
           pursued a solo career and is the king of side projects.
         </p>
       </header>
-      <section class="pulp">
+      <section className="pulp">
         <h2>PULP</h2>
         <div className="albumCard">
           {albumArray.map((albums) => (
@@ -35,10 +35,10 @@ const App = () => {
           ))}
         </div>
       </section>
-      <section class="solo">
+      <section className="solo">
         <h2>Solo Albums</h2>
       </section>
-      <section class="side">
+      <section className="side">
         <h2>Side Projects</h2>
       </section>
       <footer>

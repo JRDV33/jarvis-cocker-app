@@ -16,7 +16,8 @@
     "favoriteSong": "They Suffocate at Night",
     "video": "https://youtu.be/TObtIhL0sLc",
     "category": "Pulp",
-    "format": "LP"
+    "format": "LP",
+    "id": "002"
   },
   {
     "title": "Separations",
@@ -25,7 +26,8 @@
     "favoriteSong": "Countdown",
     "video": "https://youtu.be/Tb5JTnWgynE",
     "category": "Pulp",
-    "format": "LP"
+    "format": "LP",
+    "id": "003"
   },
   {
     "title": "Party Clowns: Live in London 1991",
@@ -34,7 +36,8 @@
     "favoriteSong": "Death II",
     "video": "https://youtu.be/YGGLzZIMx9c",
     "category": "Pulp",
-    "format": "Live LP"
+    "format": "Live LP",
+    "id": "004"
   },
   {
     "title": "Intro-The Gift Recordings",
@@ -43,7 +46,8 @@
     "favoriteSong": "Razzamatazz",
     "video": "https://youtu.be/NZQJeY2bVws",
     "category": "Pulp",
-    "format": "Compilation"
+    "format": "Compilation",
+    "id": "005"
   },
   {
     "title": "Masters of the Universe (Pul on Fire 1984-1986)",
@@ -52,7 +56,8 @@
     "favoriteSong": "Dogs are Everywhere",
     "video": "https://youtu.be/oIfVq_lAUaI",
     "category": "Pulp",
-    "format": "Compilation"
+    "format": "Compilation",
+    "id": "006"
   },
   {
     "title": "His 'n' Hers",
@@ -61,7 +66,8 @@
     "favoriteSong": "Babies",
     "video": "https://youtu.be/38by00DGid0",
     "category": "Pulp",
-    "format": "LP"
+    "format": "LP",
+    "id": "007"
   },
   {
     "title": "Different Class",
@@ -70,7 +76,8 @@
     "favoriteSong": "Disco 2000",
     "video": "https://youtu.be/qJS3xnD7Mus",
     "category": "Pulp",
-    "format": "LP"
+    "format": "LP",
+    "id": "008"
   },
   {
     "title": "Countdown 1992-1993",
@@ -79,7 +86,8 @@
     "favoriteSong": "Death Goes to the Disco",
     "video": "https://youtu.be/ctprmIzw0xk",
     "category": "Pulp",
-    "format": "Compilation"
+    "format": "Compilation",
+    "id": "009"
   },
   {
     "title": "This is Hardcore",
@@ -88,7 +96,8 @@
     "favoriteSong": "Help the Aged",
     "video": "https://youtu.be/_bZjKC0EaY0",
     "category": "Pulp",
-    "format": "LP"
+    "format": "LP",
+    "id": "010"
   },
   {
     "title": "Freshly Squeezed... The Early Years",
@@ -97,7 +106,8 @@
     "favoriteSong": "My Legendary Girlfriend",
     "video": "https://youtu.be/qycKFlB7Mlg",
     "category": "Pulp",
-    "format": "LP"
+    "format": "LP",
+    "id": "011"
   },
   {
     "title": "We Love Life",
@@ -106,7 +116,8 @@
     "favoriteSong": "Bad Cover Version",
     "video": "https://youtu.be/xR5xGHPUEew",
     "category": "Pulp",
-    "format": "LP"
+    "format": "LP",
+    "id": "012"
   },
   {
     "title": "Hits",
@@ -115,7 +126,8 @@
     "favoriteSong": "Sorted for E's and Wizz",
     "video": "https://youtu.be/XxhuZj25TKU",
     "category": "Pulp",
-    "format": "Compilation"
+    "format": "Compilation",
+    "id": "013"
   },
   {
     "title": "The Peel Sessions",
@@ -124,7 +136,8 @@
     "favoriteSong": "Common People",
     "video": "https://youtu.be/cbQ7UFyqRpY",
     "category": "Pulp",
-    "format": "Live"
+    "format": "Live",
+    "id": "014"
   },
   {
     "title": "After You",
@@ -133,7 +146,8 @@
     "favoriteSong": "After You",
     "video": "https://youtu.be/QZX1Is-T8e0",
     "category": "Pulp",
-    "format": "Single"
+    "format": "Single",
+    "id": "015"
   },
   {
     "title": "",
@@ -142,7 +156,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "016"
   },
   {
     "title": "",
@@ -151,7 +166,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "017"
   },
   {
     "title": "",
@@ -160,7 +176,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "018"
   },
   {
     "title": "",
@@ -169,7 +186,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "019"
   },
   {
     "title": "",
@@ -178,7 +196,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "020"
   },
   {
     "title": "",
@@ -187,7 +206,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "021"
   },
   {
     "title": "",
@@ -196,7 +216,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "022"
   },
   {
     "title": "",
@@ -205,7 +226,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "023"
   },
   {
     "title": "",
@@ -214,7 +236,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "024"
   },
   {
     "title": "",
@@ -223,7 +246,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "025"
   },
   {
     "title": "",
@@ -232,7 +256,8 @@
     "favoriteSong": "",
     "video": "",
     "category": "solo",
-    "format": "LP"
+    "format": "LP",
+    "id": "026"
   },
   {
     "title": "",
@@ -240,7 +265,8 @@
     "releaseDate": "",
     "favoriteSong": "",
     "video": "",
-    "category": "solo",
-    "format": "LP"
+    "category": "side",
+    "format": "LP",
+    "id": "027"
   }
 ]
