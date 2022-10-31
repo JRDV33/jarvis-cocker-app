@@ -63,6 +63,8 @@ section {
 }
 
 .pulp {
+  /* display: flex;
+  flex-direction: row; */
   height: auto;
   background-color:#88485D;
   overflow-y: scroll;
@@ -84,13 +86,15 @@ section {
 }
 
 .albumCard {
-  display: flex;
-  flex-direction: wrap;
-  width: 250px;
-  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row ;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: left;
-  margin-bottom: 20px;
+  
+  width: 250px;
+  height: 100px;\margin-bottom: 20px;
   padding: 10px;
   border-radius: 3px;
   background-color: #F0ECE9;
@@ -102,6 +106,8 @@ section {
   grid-row: all;
   flex-direction: column;
   background-color: #DBD2CF;
+  /* overflow-x: scroll;
+  scroll-behavior: smooth; */
 }
 
 footer {

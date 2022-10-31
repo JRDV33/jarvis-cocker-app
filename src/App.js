@@ -31,9 +31,11 @@ const App = () => {
       <section className="pulp">
         <h2>PULP</h2>
         <div>
-          {albumArray.map((albums) => (
-            <Albums key={albums.id} albums={albums} />
-          ))}
+          {albumArray
+            .filter((albums) => albums.category === 'Pulp')
+            .map((albums) => (
+              <Albums key={albums.id} albums={albums} />
+            ))}
         </div>
       </section>
       <section className="solo">
