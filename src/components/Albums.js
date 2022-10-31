@@ -4,7 +4,7 @@ const Albums = ({ albums }) => {
   return (
     <div className="albumCard">
       <img src={albums.cover} />
-      <h3>{albums.title}</h3>
+      <h4>{albums.title}</h4>
       <p>{albums.releaseDate}</p>
     </div>
   )

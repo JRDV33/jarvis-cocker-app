@@ -1,19 +1,31 @@
 import React from 'react'
-// import Genres from './Genres'
 
-// const Movie = ({ movie }) => {
+// const Video = ({ video }) => {
 //   return (
-//     <div className="movieCard">
-//       <img src={movie.poster_path} />
-//       <h2>{movie.title}</h2>
-//       <p>{movie.release_date}</p>
-//       <section className="genreTag">
-//         {movie.genres.map((genres) => (
-//           <Genres key={genres.id} genres={genres} />
-//         ))}
-//       </section>
+//     <div className="videoCard">
+//       <iframe
+//         width="560"
+//         height="315"
+//         src={video.video}
+//         title="YouTube video player"
+//         frameborder="0"
+//         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+//         allowfullscreen
+//       ></iframe>
+//       <h4>{video.favoriteSong}</h4>
+//       <p>{video.releaseDate}</p>
 //     </div>
 //   )
 // }
 
-// export default Movie
+const Video = ({ video }) => {
+  return (
+    <div className="videoCard">
+      <iframe src={video.video}></iframe>
+      <h4>{video.favoriteSong}</h4>
+      <p>{video.releaseDate}</p>
+    </div>
+  )
+}
+
+export default Video
