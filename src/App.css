@@ -5,13 +5,41 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr 2fr 1fr ;
-  grid-gap: 5px
+  grid-template-rows: auto;
+  /* grid-template-rows: 1fr 2fr 2fr 2fr 1fr ; */
+  grid-gap: 5px;
+
+  grid-template-areas: 
+    "header header header"
+    "pulp pulp mixtape"
+    "solo solo mixtape"
+    "side side mixtape"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+.pulp {
+  grid-area: pulp;
+}
+.solo {
+  grid-area: solo;
+}
+.side {
+  grid-area: side;
+}
+.aside {
+  grid-area: mixtape;
+  grid-column: 3;
+}
+.footer{
+  grid-area: footer;
 }
 
 header {
   text-align: left;
-  grid-column: span 3;
+  /* grid-column: span 3; */
   background-color: #F0ECE9;
   padding: 30px 30px 30px 30px;
 }
@@ -61,12 +89,14 @@ img {
 
 
 .mixtape {
-  grid-column: 3 / span 1;
-  grid-row: all;
+  grid-column: 3;
+  grid-row: auto / span 3;
   flex-direction: column;
   background-color: #DBD2CF;
-  /* overflow-x: scroll;
-  scroll-behavior: smooth; */
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  height: 1810px;
+  padding-left: 20px;
 }
 
 .pulp {

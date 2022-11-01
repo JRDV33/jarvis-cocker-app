@@ -6,13 +6,6 @@ import Video from './components/Video'
 const App = () => {
   return (
     <div className="App">
-      {/* <nav className="nav">
-        <p>Home</p>
-        <p>PULP</p>
-        <p>Solo Albums</p>
-        <p>Side Projects</p>
-        <p>Mixtape</p>
-      </nav> */}
       <header className="header">
         <h1>Jarvis Cocker</h1>
         {/* <img
@@ -58,7 +51,7 @@ const App = () => {
             ))}
         </div>
       </section>
-      <section className="mixtape">
+      <aside className="mixtape">
         <h3>Mixtape</h3>
         <p>This is a collection of favorite songs compiled in one list.</p>
         <div>
@@ -66,8 +59,8 @@ const App = () => {
             <Video key={video.id} video={video} />
           ))}
         </div>
-      </section>
-      <footer>
+      </aside>
+      <footer className=".footer">
         <p>Copyright JRDV 2023</p>
         <p>jennadelvigna@gmail.com</p>
       </footer>
