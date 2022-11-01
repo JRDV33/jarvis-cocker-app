@@ -34,7 +34,6 @@ h2 {
   font-family: 'Abril Fatface', cursive;
   color: #F0ECE9;
   letter-spacing: 2px;
-  position: static;
   margin-bottom: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -60,10 +59,7 @@ img {
   filter:drop-shadow(3px 3px 3px #ADA292)
 }
 
-section {
-  /* margin-left: 250px; */
-  padding: 0px 30px;
-}
+
 .mixtape {
   grid-column: 3 / span 1;
   grid-row: all;
@@ -74,7 +70,7 @@ section {
 }
 
 .pulp {
-  height: 450px;
+  height: 600px;
   background-color:#88485D;
   grid-column: 1 / span 2;
   padding-top: none;
@@ -83,22 +79,30 @@ section {
 }
 
 .solo {
-  height: auto;
+  height: 600px;
   background-color: #615B5F;
   grid-column: 1 / span 2;
+  padding-top: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
 }
 
 .side {
-  height: auto;
+  height: 600px;
   background-color: #AEA292;
   grid-column: 1 / span 2;
+  padding-top: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
 }
 
 .cards {
-  display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;
-  /* grid-column: span 2; */
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
 }
 
 .albumCard {
