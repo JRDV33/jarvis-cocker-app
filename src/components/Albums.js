@@ -6,7 +6,9 @@ const Albums = ({ albums }) => {
       <img src={albums.cover} />
       <div>
         <h4>{albums.title}</h4>
-        <p>{albums.releaseDate}</p>
+        <p>
+          {albums.releaseDate}, {albums.format}
+        </p>
       </div>
     </div>
   )
