@@ -30,7 +30,7 @@ const App = () => {
       </header>
       <section className="pulp">
         <h2>PULP</h2>
-        <div>
+        <div className="cards">
           {albumArray
             .filter((albums) => albums.category === 'Pulp')
             .map((albums) => (
@@ -40,9 +40,23 @@ const App = () => {
       </section>
       <section className="solo">
         <h2>Solo Albums</h2>
+        <div className="cards">
+          {albumArray
+            .filter((albums) => albums.category === 'solo')
+            .map((albums) => (
+              <Albums key={albums.id} albums={albums} />
+            ))}
+        </div>
       </section>
       <section className="side">
         <h2>Side Projects</h2>
+        <div className="cards">
+          {albumArray
+            .filter((albums) => albums.category === 'side')
+            .map((albums) => (
+              <Albums key={albums.id} albums={albums} />
+            ))}
+        </div>
       </section>
       <section className="mixtape">
         <h3>Mixtape</h3>

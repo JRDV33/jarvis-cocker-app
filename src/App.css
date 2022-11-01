@@ -4,7 +4,8 @@
   color: #29272C;
 
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr 1fr ;
   grid-gap: 5px
 }
 
@@ -54,46 +55,50 @@ p {
 img {
   border-radius: 3px;
   border: 1px solid #29272C;
-  width: 200px;
+  width: 250px;
   margin-right: 0px;
   filter:drop-shadow(3px 3px 3px #ADA292)
 }
 
-
 section {
   /* margin-left: 250px; */
-  padding: 0 30px;
-
+  padding: 0px 30px;
+}
+.mixtape {
+  grid-column: 3 / span 1;
+  grid-row: all;
+  flex-direction: column;
+  background-color: #DBD2CF;
+  /* overflow-x: scroll;
+  scroll-behavior: smooth; */
 }
 
 .pulp {
   height: 450px;
   background-color:#88485D;
-  grid-column: span 2;
+  grid-column: 1 / span 2;
   padding-top: none;
-  overflow-y: scroll;
+  overflow-x: auto;
   scroll-behavior: smooth;
-}
-
-.cards {
-  display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;
-
-  grid-column: span 2;
 }
 
 .solo {
   height: auto;
   background-color: #615B5F;
   grid-column: 1 / span 2;
-
 }
+
 .side {
   height: auto;
   background-color: #AEA292;
   grid-column: 1 / span 2;
+}
 
+.cards {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  /* grid-column: span 2; */
 }
 
 .albumCard {
@@ -105,28 +110,23 @@ section {
   align-items: left;
   
   width: 250px;
-  height: 250px;
+  height: auto;
   margin-bottom: 20px;
   padding: 10px;
+  margin: 20px;
   border-radius: 3px;
   background-color: #F0ECE9;
   border-bottom: 1px solid #29272C;
 }
 
-.mixtape {
-  grid-column: 3;
-  grid-row: all;
-  flex-direction: column;
-  background-color: #DBD2CF;
-  /* overflow-x: scroll;
-  scroll-behavior: smooth; */
-}
+
 
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   grid-column: span 3;
+  grid-row: 6;
 
 
   background-color: #28282C;
@@ -136,7 +136,7 @@ footer {
   font-size: 12px;
   font-weight: bolder;
   padding: 0px 25px;
-  column-span: span 4;
+  column-span: span 3;
 }
 
 
