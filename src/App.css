@@ -132,7 +132,7 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 10px;
+  gap: 3px;
 }
 
 .albumCard {
@@ -147,7 +147,7 @@ img {
   height: auto;
   margin-bottom: 20px;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 3px;
   background-color: #F0ECE9;
   border-bottom: 1px solid #29272C;
