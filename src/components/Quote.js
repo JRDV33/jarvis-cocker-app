@@ -1,12 +1,5 @@
-import React from 'react'
+const Quote = ({ quote }) => {
+  return <div>{quote}</div>
+}
 
-//FROM FF DOM exercise
-// window.onload = function (event) {
-//   const Quote = function () {
-//     document.querySelector('.quote').textContent = `"${
-//       quotes[Math.floor(Math.random() * quotes.length)]
-//     }"`
-//   }
-//   randomQuote()
-
-//   export default Quote
+export default Quote
