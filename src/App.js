@@ -4,7 +4,7 @@ import Album from './components/Album'
 import Video from './components/Video'
 import Quote from './components/Quote'
 import { useState } from 'react'
-import AlbumList from './components/AlbumList'
+// import AlbumList from './components/AlbumList'
 
 const App = () => {
   const [quote, setQuote] = useState('Anything Goes')

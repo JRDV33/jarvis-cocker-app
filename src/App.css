@@ -84,7 +84,7 @@ h2 {
   margin: 0;
 }
 #static {
-  position: fixed;
+  position: sticky;
 }
 
 h3 {
@@ -107,18 +107,26 @@ img {
   margin-right: 0px;
   filter:drop-shadow(3px 3px 3px #ADA292)
 }
-
+aside {
+  text-align: left;
+  padding-right: 100px;
+}
 
 .mixtape {
   grid-column: 3;
   grid-row: auto / span 3;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
   background-color: #DBD2CF;
   overflow-y: auto;
   scroll-behavior: smooth;
   height: 1810px;
   padding-left: 20px;
+}
+
+.videoCard {
+  padding: 20px 0px;
+  width: 250px;
 }
 
 .pulp {
