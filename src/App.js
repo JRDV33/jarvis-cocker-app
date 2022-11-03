@@ -1,10 +1,10 @@
 import './App.css'
 import albumArray from './data.json'
-import Albums from './components/Albums'
+import Album from './components/Album'
 import Video from './components/Video'
 import Quote from './components/Quote'
 import { useState } from 'react'
-// quotes[Math.floor(Math.random() * quotes.length)]
+import AlbumList from './components/AlbumList'
 
 const App = () => {
   const [quote, setQuote] = useState('Anything Goes')
@@ -19,15 +19,6 @@ const App = () => {
     <div className="App">
       <header className="header">
         <h1>Jarvis Cocker</h1>
-        <div className="quote">
-          <Quote quote={quote} />
-        </div>
-        {/* <img
-          id="unionJack"
-          src="https://previews.dropbox.com/p/thumb/ABtRQAZFE5jKuERVqAt8HOvFw5glPSxJ3-WowA53R0g_90nRlTp9g8MJPsfs7L3MqIDGMEFfMEqvx1p5mqoVUEM812OrIX2FW3oFypdf_sdBDpPijSBwc8nruc2liSXBM6SzjyOOlIv0uisFg_DzCXhU9egPjUFCLqHygeeB6jqsBiDr4AOupGVQDqYmDAuQ2cbJpwKFbGFBZyuEnUEUo6DaqRiIr75z170qhYrN14cRaEu1X9C7-LW0uBR0_a5GZlVofBG2rB8O9Do0ojdIVkybvkh1z8tjDec-cMGyBXY4tSlGYpMk60HprIBZlEqh0YAKu623qqSZgcfMtUXJqM5tQ0CPrw4hxRSEBIwFrTiQ3o0ootI4BXim6LULo6E5SY4/p.png"
-          alt="Illustration of Jarvis Cocker"
-        /> */}
-        <button onClick={getQuote}>New Quote</button>
         <p>
           Born 19 September 1963, Jarv... is an English musician,radio
           presenter, author, dj, and sex god. As the founder, frontman, lyricist
@@ -35,14 +26,23 @@ const App = () => {
           the Britpop genre of the mid-1990s. Following Pulp's hiatus, Cocker
           pursued a solo career and is the king of side projects.
         </p>
+        <div className="quote">
+          <button onClick={getQuote}>New Quote</button>
+          <Quote quote={quote} />
+        </div>
+        {/* <img
+          id="unionJack"
+          src="https://previews.dropbox.com/p/thumb/ABtRQAZFE5jKuERVqAt8HOvFw5glPSxJ3-WowA53R0g_90nRlTp9g8MJPsfs7L3MqIDGMEFfMEqvx1p5mqoVUEM812OrIX2FW3oFypdf_sdBDpPijSBwc8nruc2liSXBM6SzjyOOlIv0uisFg_DzCXhU9egPjUFCLqHygeeB6jqsBiDr4AOupGVQDqYmDAuQ2cbJpwKFbGFBZyuEnUEUo6DaqRiIr75z170qhYrN14cRaEu1X9C7-LW0uBR0_a5GZlVofBG2rB8O9Do0ojdIVkybvkh1z8tjDec-cMGyBXY4tSlGYpMk60HprIBZlEqh0YAKu623qqSZgcfMtUXJqM5tQ0CPrw4hxRSEBIwFrTiQ3o0ootI4BXim6LULo6E5SY4/p.png"
+          alt="Illustration of Jarvis Cocker"
+        /> */}
       </header>
       <section className="pulp">
         <h2>PULP Music</h2>
         <div className="cards">
           {albumArray
-            .filter((albums) => albums.category === 'Pulp')
-            .map((albums) => (
-              <Albums key={albums.id} albums={albums} />
+            .filter((album) => album.category === 'Pulp')
+            .map((album) => (
+              <Album key={album.id} album={album} />
             ))}
         </div>
       </section>
@@ -50,9 +50,9 @@ const App = () => {
         <h2>Solo Music</h2>
         <div className="cards">
           {albumArray
-            .filter((albums) => albums.category === 'solo')
-            .map((albums) => (
-              <Albums key={albums.id} albums={albums} />
+            .filter((album) => album.category === 'solo')
+            .map((album) => (
+              <Album key={album.id} album={album} />
             ))}
         </div>
       </section>
@@ -60,9 +60,9 @@ const App = () => {
         <h2>Side Projects</h2>
         <div className="cards">
           {albumArray
-            .filter((albums) => albums.category === 'side')
-            .map((albums) => (
-              <Albums key={albums.id} albums={albums} />
+            .filter((album) => album.category === 'side')
+            .map((album) => (
+              <Album key={album.id} album={album} />
             ))}
         </div>
       </section>
