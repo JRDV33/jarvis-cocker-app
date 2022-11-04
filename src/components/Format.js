@@ -1,15 +1,16 @@
 // import React from 'react'
+// import album from './Album'
 
 const Format = ({ format }) => {
   let colorVariable
-  switch (FormData.name) {
+  switch (format) {
     case 'LP':
       colorVariable = '#E8435D'
       break
     case 'EP':
       colorVariable = '#D57C70'
       break
-    case 'Live':
+    case 'Live LP':
       colorVariable = '#44692F'
       break
     case 'Compilation':
@@ -18,21 +19,32 @@ const Format = ({ format }) => {
     case 'Single':
       colorVariable = '#894A5D'
       break
+    case 'Book':
+      colorVariable = '#894A5D'
+      break
+    case 'Radio Show':
+      colorVariable = '#894A5D'
+      break
+    case 'Soundtrack':
+      colorVariable = '#894A5D'
+      break
   }
+
   return (
     <div>
       <p
         style={{
           backgroundColor: colorVariable,
-          fontFamily: 'sans-serif',
-          color: 'white',
+          color: '#F0ECE9',
+          fontSize: '12px',
+          fontWeight: '600',
           padding: '5px',
           margin: '3px',
           border: '1px solid #29272C',
           borderRadius: '5px'
         }}
       >
-        {format.format}
+        {format}
       </p>
     </div>
   )

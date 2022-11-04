@@ -43,6 +43,7 @@ header {
   /* grid-column: span 3; */
   background-color: #F0ECE9;
   padding: 30px 100px 30px 30px;
+  height: 450px;
 }
 .quote {
   font-size: 18px;
