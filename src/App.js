@@ -7,7 +7,9 @@ import { useState } from 'react'
 // import AlbumList from './components/AlbumList'
 
 const App = () => {
-  const [quote, setQuote] = useState('Anything Goes')
+  const [quote, setQuote] = useState(
+    'I am not Jesus, though I have the same initials.'
+  )
 
   const getQuote = () => {
     let random = Math.floor(Math.random() * albumArray.length)

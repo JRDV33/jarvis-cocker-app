@@ -1,5 +1,5 @@
 import React from 'react'
-import Format from './Format'
+// import Format from './Format'
 
 const Album = ({ album }) => {
   return (
@@ -7,11 +7,12 @@ const Album = ({ album }) => {
       <img src={album.cover} />
       <h4>{album.title}</h4>
       <p>{album.releaseDate}</p>
-      <section>
-        {album.map((format) => (
+      <div id="format">{album.format}</div>
+      {/* <section>
+        {album.format.map((format) => (
           <Format key={album.id} format={format} />
         ))}
-      </section>
+      </section> */}
     </div>
   )
 }
