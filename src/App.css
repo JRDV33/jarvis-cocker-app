@@ -207,6 +207,16 @@ section {
   padding: 0px 30px;
 }
 
+#format {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #28282C;
+  color: #F0ECE9;
+  padding: 5px;
+  border-radius: 5px;
+  width: auto;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -223,15 +233,10 @@ footer {
   /* padding: 0px 25px; */
   column-span: span 3;
 }
-
-#format {
+#whiteType {
+  color:#F0ECE9;
   font-size: 12px;
-  font-weight: 600;
-  background-color: #28282C;
-  color: #F0ECE9;
-  padding: 5px;
-  border-radius: 5px;
-  width: auto;
+  padding: 30px;
 }
 /* // <-- second try - */
 /* .albumCard {

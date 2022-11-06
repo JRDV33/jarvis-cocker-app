@@ -78,8 +78,8 @@ const App = () => {
         </div>
       </aside>
       <footer className=".footer">
-        <p>Copyright JRDV 2023</p>
-        <p>jennadelvigna@gmail.com</p>
+        <p id="whiteType">Copyright JRDV 2023</p>
+        <p id="whiteType">jennadelvigna@gmail.com</p>
       </footer>
     </div>
   )
