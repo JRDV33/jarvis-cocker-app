@@ -72,11 +72,6 @@ h1 {
   /* padding-bottom: none; */
 }
 
-#unionJack {
-  width: 200px;
-  float: right;
-}
-
 h2 {
   font-size: 48px;
   font-family: 'Abril Fatface', cursive;
@@ -238,6 +233,23 @@ footer {
   font-size: 12px;
   padding: 30px;
 }
+
+#unionJack {
+  width: 260px;
+  float: right;
+  border: none;
+  margin-left: 50px;
+  filter:drop-shadow(0px 0px 0px #29272C)
+}
+
+/* #thinking {
+  width: 260px;
+  float: right;
+  border: none;
+  padding: 0px 0px 30px 30px;
+  margin-left: 50px;
+  filter:drop-shadow(0px 0px 0px #29272C)
+} */
 /* // <-- second try - */
 /* .albumCard {
   display: flex;
